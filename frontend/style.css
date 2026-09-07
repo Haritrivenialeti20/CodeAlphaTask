@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    background: white;
+
+    width: 100%;
+    max-width: 900px;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    color: #333;
+}
+
+.subtitle {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 30px;
+}
+
+.language-selection {
+    display: flex;
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.language-selection > div {
+    width: 50%;
+}
+
+label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+    color: #333;
+}
+
+select,
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+textarea {
+    height: 200px;
+
+    resize: vertical;
+}
+
+.translation-area {
+    display: flex;
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.text-box {
+    width: 50%;
+}
+
+button {
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #667eea;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #5568d9;
+}
+
+#message {
+    margin-top: 20px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+
+    .language-selection,
+    .translation-area {
+        flex-direction: column;
+    }
+
+    .language-selection > div,
+    .text-box {
+        width: 100%;
+    }
+
+}
+
+.swap-button {
+    align-self: flex-end;
+
+    padding: 10px 15px;
+
+    background: #764ba2;
+
+    white-space: nowrap;
+}
+
+.swap-button:hover {
+    background: #5f3b82;
+}
+
+#clearButton {
+    background: #555;
+}
+
+#clearButton:hover {
+    background: #333;
+}
+
+button:disabled {
+    opacity: 0.6;
+
+    cursor: not-allowed;
+}

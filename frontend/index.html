@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Language Translation Tool</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌐 Language Translation Tool</h1>
+
+        <p class="subtitle">
+            Translate text instantly between different languages
+        </p>
+
+        <div class="language-selection">
+
+    <div>
+        <label for="sourceLanguage">Source Language</label>
+
+        <select id="sourceLanguage">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="te">Telugu</option>
+            <option value="kn">Kannada</option>
+            <option value="ta">Tamil</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="es">Spanish</option>
+        </select>
+    </div>
+
+    <button id="swapButton" class="swap-button">
+        ⇄ Swap
+    </button>
+
+    <div>
+        <label for="targetLanguage">Target Language</label>
+
+        <select id="targetLanguage">
+            <option value="hi">Hindi</option>
+            <option value="en">English</option>
+            <option value="te">Telugu</option>
+            <option value="kn">Kannada</option>
+            <option value="ta">Tamil</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="es">Spanish</option>
+        </select>
+    </div>
+
+</div>
+
+
+        <div class="translation-area">
+
+            <div class="text-box">
+
+                <label for="inputText">Enter Text</label>
+
+                <textarea
+                    id="inputText"
+                    placeholder="Type text to translate..."
+                ></textarea>
+
+            </div>
+
+
+            <div class="text-box">
+
+                <label for="translatedText">Translation</label>
+
+                <textarea
+                    id="translatedText"
+                    placeholder="Translated text will appear here..."
+                    readonly
+                ></textarea>
+
+            </div>
+
+        </div>
+
+
+        <button id="translateButton">
+            Translate
+        </button>
+
+
+        <button id="copyButton">
+            Copy Translation
+        </button>
+
+        <button id="clearButton">
+            Clear
+        </button>
+
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
