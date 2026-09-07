@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is CodeAlpha?",
+    "answer": "CodeAlpha is an organization that provides internship opportunities where students can gain practical experience by working on real-world projects."
+  },
+  {
+    "question": "What is the duration of the internship?",
+    "answer": "The internship duration depends on the specific CodeAlpha internship program and the batch you are enrolled in."
+  },
+  {
+    "question": "How many tasks should I complete?",
+    "answer": "You should complete the required number of tasks specified in your internship task submission guidelines."
+  },
+  {
+    "question": "Can I complete additional tasks?",
+    "answer": "Yes. Additional tasks may be completed for extra learning and practice if they are available in your internship assignment."
+  },
+  {
+    "question": "How do I submit my internship tasks?",
+    "answer": "Complete the project, organize your code properly, push it to GitHub, and submit the required project or repository link through the internship task submission form."
+  },
+  {
+    "question": "Do I need a GitHub repository?",
+    "answer": "Yes. You should maintain your project code in a GitHub repository when the internship submission instructions require a repository link."
+  },
+  {
+    "question": "Can I use different programming languages?",
+    "answer": "You can generally use an appropriate programming language and technology stack for the task, unless the task instructions specify a particular technology."
+  },
+  {
+    "question": "Where should I upload my project?",
+    "answer": "Keep your project files organized in your GitHub repository and submit the repository or project link according to the internship submission instructions."
+  },
+  {
+    "question": "How can I get help with my internship tasks?",
+    "answer": "You can refer to the task instructions, documentation, learning resources, and available internship support channels for guidance."
+  },
+  {
+    "question": "What should I include in my project?",
+    "answer": "Your project should include the required source code, configuration files, dependency information, documentation, and any other files requested by the task instructions."
+  },
+  {
+    "question": "What is an FAQ chatbot?",
+    "answer": "An FAQ chatbot is a program that answers frequently asked questions by matching a user's question with relevant questions and answers stored in a knowledge base."
+  },
+  {
+    "question": "How does this chatbot work?",
+    "answer": "This chatbot preprocesses the user's question using NLP, converts questions into TF-IDF vectors, calculates cosine similarity, and returns the answer associated with the most similar FAQ."
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing, or NLP, is a field of artificial intelligence that enables computers to process, analyze, and understand human language."
+  },
+  {
+    "question": "What is TF-IDF?",
+    "answer": "TF-IDF stands for Term Frequency-Inverse Document Frequency. It converts text into numerical vectors based on how important words are within documents."
+  },
+  {
+    "question": "What is cosine similarity?",
+    "answer": "Cosine similarity measures how similar two text vectors are by calculating the cosine of the angle between them. A higher value indicates greater similarity."
+  }
+]
