@@ -1,0 +1,7 @@
+transformers==5.16.1
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+timm==1.0.29
+opencv-python==5.0.0
+pillow
+streamlit==1.63.0
