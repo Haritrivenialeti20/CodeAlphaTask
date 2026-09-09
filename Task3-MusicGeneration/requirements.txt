@@ -1,0 +1,5 @@
+transformers==5.16.1
+torch==2.6.0+cpu
+scipy==1.15.2
+soundfile==0.14.0
+numpy<2.5
